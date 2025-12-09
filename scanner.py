@@ -9,7 +9,7 @@ target = input("\nEnter target IP or hostname (e.g. scanme.nmap.org): ").strip()
 threads = 200          # Speed
 timeout = 1.0
 start_port = 1
-end_port = 5000        # Number of ports to scan
+end_port = 1000        # Number of ports to scan
 
 # ——————— Common ports database ———————
 common_ports = {

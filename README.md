@@ -64,10 +64,10 @@ If you don't already have the file, you can create one containing:
 Clone or download the repository, then make the script executable:
 
 ```bash
-git clone <your-repo-url>
-cd <your-project-folder>
+git clone https://github.com/aby1laj/PortScanner.git>
+cd PortScanner
 
-chmod +x port_scanner.py
+scanner.py
 ```
 
 ---
@@ -97,7 +97,7 @@ Inside the script, you can manually adjust:
 | `threads`      | Number of worker threads                  | `200`       |
 | `timeout`      | Socket timeout per port                   | `1.0`       |
 | `start_port`   | First port to scan                        | `1`         |
-| `end_port`     | Last port to scan                         | `5000`      |
+| `end_port`     | Last port to scan                         | `1000`      |
 | `common_ports` | Dictionary of known ports → service names | Pre-defined |
 
 You can customize the port range or thread count to improve accuracy or speed.
@@ -107,7 +107,7 @@ You can customize the port range or thread count to improve accuracy or speed.
 ## 📤 Example Output
 
 ```
-Scanning scanme.nmap.org | ports 1–5000 | threads: 200
+Scanning scanme.nmap.org | ports 1–1000 | threads: 200
 Started: 14:22:11
 --------------------------------------------------------------------------------
 [+] 22     OPEN → SSH
