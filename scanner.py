@@ -6,10 +6,10 @@ from datetime import datetime
 
 # ——————— SETTINGS ———————
 target = input("\nEnter target IP or hostname (e.g. scanme.nmap.org): ").strip()
-threads = 200          # increase for speed (200–500 is good)
+threads = 200          # Speed
 timeout = 1.0
 start_port = 1
-end_port = 5000        # change to 65535 for full scan (will take time!)
+end_port = 5000        # Number of ports to scan
 
 # ——————— Common ports database ———————
 common_ports = {
