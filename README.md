@@ -7,7 +7,7 @@ This tool uses multi-threading to efficiently scan thousands of ports and identi
 
 ## 📑 Table of Contents
 
-* [About](#about)
+* [About](#About)
 * [Features](#features)
 * [Requirements](#requirements)
 * [Installation](#installation)
